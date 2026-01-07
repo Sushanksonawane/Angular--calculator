@@ -1,0 +1,34 @@
+.calculator {
+  width: 260px;
+  margin: 40px auto;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  background: #f9f9f9;
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: right;
+  padding: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.zero {
+  grid-column: span 2;
+}
